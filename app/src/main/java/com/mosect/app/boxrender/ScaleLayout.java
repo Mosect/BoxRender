@@ -6,6 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
+/**
+ * 比例布局，主要用于宽高比进行布局
+ */
 public class ScaleLayout extends FrameLayout {
 
     private float mScale = 1f;

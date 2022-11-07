@@ -17,6 +17,9 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
+/**
+ * 高版本Android MediaProjection需要在startForeground方法调用之后获取，因此需要把获取MediaProject逻辑放在服务中
+ */
 public class CaptureService extends Service {
 
     private final static String NOTIFICATION_CHANNEL_ID = "capture";

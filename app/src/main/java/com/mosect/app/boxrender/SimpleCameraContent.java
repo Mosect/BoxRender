@@ -9,7 +9,6 @@ import java.util.List;
 
 public class SimpleCameraContent extends CameraContent {
 
-    @SuppressWarnings("deprecation")
     @Override
     protected Camera openCamera() {
         Camera camera = Camera.open();
